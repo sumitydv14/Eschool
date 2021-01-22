@@ -1,0 +1,375 @@
+a{
+    text-decoration: none !important;
+}
+
+header{
+    background-image: url('../images/img-bg-1.jpg');
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+
+}
+
+.call-icon{
+    padding: 20px 0px;
+}
+.top-icon li {
+    margin-right: 16px;
+}
+
+.header-content{
+    padding: 130px 0px;
+}
+
+.header-head h1{
+     font-size: 54px;
+     font-weight: 300;
+     line-height: 1.3;
+}
+.header-head h2{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 45px;
+}
+
+.watch-video a{
+    padding: 20px 40px;
+    border-radius: 35px;
+    font-size: 15px;
+    background-color: rgba(27, 180, 185, 0.90);
+    color:#FFF;
+}
+.overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+.top-icon ul li a{
+    color:#FFF;
+}
+.top-icon ul li:nth-child(2){
+    border-right: 1px solid #FFF;
+    padding-right: 10px;
+}
+
+.navbar ul li a{
+    color:#FFF !important;
+}
+
+.navbar ul li{
+    margin-right: 20px;
+}
+
+.navbar-default{
+    transition:500ms ease;
+    background:transparent;
+  }
+  .navbar-default.scrolled{
+    background:#000;
+    height: 80px;
+
+  }
+
+.counter
+{
+    text-align: center;
+}
+
+.counter-count
+{
+    font-size: 40px;
+    font-weight: 200;
+    position: relative;
+   
+    text-align: center;
+    display: inline-block;
+}
+
+.count-up h3{
+  font-size: 13px !important;
+  line-height: 1px;
+  color: #5a5a5a;
+}
+
+.count-up span{
+    font-size: 30px;
+    color:#ea9215;
+}
+
+.sec-1{
+    padding: 70px 0px;
+}
+
+.sec-3{
+    padding: 70px 0px 100px 0px;
+    background-color:#ededed;
+}
+
+.sec-3-heading p{
+    font-size: 18px;
+    color:#5A5A5D;
+}
+.read-more a{
+    background-color: rgba(27, 180, 185, 0.90);
+    padding: 10px 20px;
+    border-radius: 30px;
+    color:#FFF;
+}
+.sec-3-box{
+    background-color: #FFF;
+}
+.sec-3-content{
+    padding: 30px;
+    box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.25);
+}
+
+.sec-3-content ul li:nth-child(1) a{
+   font-size: 17px;
+   color:#000;
+}
+.sec-3-content ul li:nth-child(2){
+    font-size: 20px;
+    color:#dc8e1f;
+    font-weight: bold;
+ }
+ .sec-3-content p {
+    color: #5A5A5D;
+    font-size: 17px;
+}
+
+.carousel-indicators{
+    position: absolute;
+    bottom: -66px !important;
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ea9215;
+}
+
+.sec-4{
+    padding: 80px 0px;
+}
+
+.sec-4-content h4{
+    color:#161616;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.sec-4-content p{
+  color: #5A5A5D;
+  font-size: 17px;
+  margin-right: 10px;
+}
+
+.sec-4-content .fas{
+    color:#dc8e1f;
+}
+
+.sec-5{
+    padding: 60px 0px;
+}
+
+.project{
+    margin-bottom: 30px;
+    position: relative;
+}
+.project  a h3 {
+    z-index: 12;
+    position: absolute;
+    right: 20px;
+    left: 20px;
+    bottom: 50px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    font-size: 30px;
+    font-weight: 300;
+    visibility: visible;
+    transition: 0.3s;
+}
+.project a span {
+    z-index: 12;
+    position: absolute;
+    right: 20px;
+    left: 20px;
+    bottom: 16px;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    font-size: 20px;
+    font-weight: 300;
+    visibility: visible;
+    transition: 0.3s;
+}
+
+.project a:hover{
+    box-shadow: 0px 18px 71px -10px rgba(0, 0, 0, 0.75);
+}
+.project a{
+    display: block;
+    overflow: hidden;
+    color:#000;
+    position: relative;
+    bottom: 0;
+    transition: 0.5s;
+}
+
+.project a img:hover{
+    transform: scale(1.1);
+   transition: 0.5s; 
+   overflow: hidden; 
+}
+
+.sec-4-content ul li{
+    margin-top: 20px;
+}
+
+.sec-7-box{
+    position: relative;
+}
+
+.sec-7-box img{
+    display: block;
+    width: 100%;
+    height: auto;
+    
+
+}
+
+.over{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+
+  .sec-7-box:hover .over{
+     height: 100%;
+  }
+
+ 
+
+  .sec-7{
+      padding: 70px 0px;
+  }
+
+  .sec-8{
+      padding: 0px 0px 70px;
+  }
+
+  .sec-8 .read-post a{
+      border-radius: 30px;
+      padding: 10px 20px;
+      background-color: #dc8e1f;
+      color:#FFF;
+  }
+
+  .sec-10-content{
+      padding: 130px 0px;
+  }
+
+  .sec-10{
+      background-image: url('../images/img-bg-2.jpg');
+      background-size: cover;
+      background-position: top center;
+      background-repeat: no-repeat;
+      width: 100%;
+      position: relative;
+  }
+
+  .overlay1 {
+    background: #000000ba;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.create-btn a{
+    padding: 20px 40px;
+    background-color: rgba(27, 180, 185, 0.90);
+    border-radius: 30px;
+    color:#FFF;
+}
+.sec-10-content h2{
+  margin-bottom: 30px;
+}
+.sec-10-content p{
+    color:#5A5A5D;
+    margin-bottom: 60px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.sec-11{
+    padding: 80px 0px;
+    background-color:  #efefef;
+}
+
+.sec-11 ul li a{
+    color:#909090;
+}
+
+.sec-11 h5{
+    font-weight: 400;
+    color:#161616;
+}
+.sec-11 ul li{
+    color:#909090;
+    margin-top: 10px;
+}
+.sec-11 ul li:hover a{
+    color:#dc8e1f;
+    margin-left: 5px;
+    transition: .5s;
+}
+
+.sec-12{
+    background-color: #efefef;
+  padding: 60px 0px;
+}
+
+.copy ul li{
+    width: 50px;
+    height: 50px;
+    border:1px solid #dc8e1f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.copy ul li a{
+    color:#dc8e1f;
+}
+.copy ul li:hover .fab{
+   transform: rotate(360deg);
+   transition: .6s;
+   color:rgba(27, 180, 185, 0.90);
+}
+.copy ul li:hover .fas{
+    transform: rotate(360deg);
+    transition: .6s;
+    color:rgba(27, 180, 185, 0.90);
+ }
+
+ .copy ul li:hover{
+    border:1px solid rgba(27, 180, 185, 0.90);
+ }
